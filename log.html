@@ -24,13 +24,13 @@
   escaping discipline as survey.html (esc() before every innerHTML).
 
   Per-tenant placeholders (filled by provisioning / deploy):
-      {{PRACTICE_NAME}}      -> e.g. "Your Dental Practice"   (appears twice)
-      {{PRACTICE_SUBTITLE}}  -> e.g. "123 High Street, Town · Dr A. Example"
+      new Benedict test      -> e.g. "Your Dental Practice"   (appears twice)
+        -> e.g. "123 High Street, Town · Dr A. Example"
 -->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Compliance Log · {{PRACTICE_NAME}}</title>
+  <title>Compliance Log · new Benedict test</title>
   <style>
     :root{ --navy:#002349; --navy-deep:#001a37; --gold:#f0d060; --card:#ffffff;
            --ink:#10243d; --muted:#5b6b7d; --line:#d8e0ea; --ok:#1c7c44; --err:#b3261e; }
@@ -77,8 +77,8 @@
 </head>
 <body>
   <header>
-    <div class="practice">{{PRACTICE_NAME}}</div>
-    <div class="sub">{{PRACTICE_SUBTITLE}}</div>
+    <div class="practice">new Benedict test</div>
+    <div class="sub"></div>
   </header>
   <div class="wrap">
     <div class="card" id="root">
